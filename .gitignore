@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+*.log
+*.db
+*.sqlite3
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb~
+*.nbconvert.ipynb
+*.out
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# C/C++
+*.o
+*.out
+*.exe
+*.class
+*.gch
+
+# System
+.DS_Store
+Thumbs.db
+
+# Git
+*.orig
+*.swp
