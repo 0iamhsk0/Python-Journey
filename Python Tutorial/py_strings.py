@@ -69,7 +69,7 @@ print(s2.isdigit())   # True
 print("hello".islower())   # True
 print("WORLD".isupper())   # True
 print(" ".isspace())       # True
-
+print(s1.isalnum)     # True
 
 ## 8. Text Alignment
 s = "hello"
@@ -101,13 +101,14 @@ age = 22
 
 ## 11. String formating
 print("My name is {} and I am {} years old".format(name, age))
-print(f"My name is {name} and I am {age} years old")  # modern way
+print(f"My name is {name} and I am {age} years old")  # modern way # f strings
 
 ## 12. Counting and frequency 
 s = "leetcode"
 
 # Count occurrences of a char
 count_e = s.count('e')
+print(count_e) # 3
 
 # or Frequency map using Counter (from collections)
 from collections import Counter
@@ -115,6 +116,7 @@ freq = Counter(s)  # {'l':1, 'e':3, 't':1, 'c':1, 'o':1, 'd':1}
 
 # Access frequency of 'e'
 freq_e = freq['e']
+print(freq_e) # 3
 
 # Useful String Algorithms & Techniques
 # Two Pointers: For palindrome check, substring search, or merging sorted strings.
